@@ -72,8 +72,8 @@
 </div>
 
 
-	<div class="row">
-								<div class="col-md-6">
+	<div >
+								<div class="col-md-6 " >
 									<br>
 									<div class="alert alert-success hidden" id="contactSuccess">
 										<strong>Success!</strong> Your message has been sent to us.
@@ -84,34 +84,85 @@
 									<div class="contact-form">
 										<form id="contact-form" action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="POST" >
 											<div class="form-group has-feedback">
-												<label for="name">Name*</label>
-												<input type="text" class="form-control" id="name" name="name" placeholder="">
+												<label for="name">Nombre*</label>
+												<input type="text" class="form-control" id="name" name="name" placeholder="Introduce tu Nombre" required>
 												<i class="fa fa-user form-control-feedback"></i>
 											</div>
+
+											<div class="form-group has-feedback">
+												<label for="name">Apellidos</label>
+												<input type="text" class="form-control" id="name" name="name" placeholder="Introduce tus apellidos" >
+												<i class="fa fa-user form-control-feedback"></i>
+											</div>
+
+
+											  <div class="form-group has-feedback">
+												<label for="birthday">Fecha de nacimiento:</label>
+												<br>
+												<input type="date" id="birthday" name="birthday">
+												<i class="fa fa-calendar form-control-feedback"></i>
+											  </div>
+											  
+
+
 											<div class="form-group has-feedback">
 												<label for="email">Email*</label>
-												<input type="email" class="form-control" id="email" name="email" placeholder="">
+												<input type="email" class="form-control" id="email" name="email" placeholder="Introduce tu correo electronico" required>
 												<i class="fa fa-envelope form-control-feedback"></i>
 											</div>
+											
 											<div class="form-group has-feedback">
-												<label for="subject">Subject*</label>
-												<input type="text" class="form-control" id="subject" name="subject" placeholder="">
-												<i class="fa fa-navicon form-control-feedback"></i>
+												<label for="name">Numero de telefono*</label>
+												<input type="tel" class="form-control" id="name" name="name" placeholder="Introduce tu numero de telefono" pattern="^[0-9]{3}[0-9]{3}[0-9]{3}" required>
+												<i class="fa fa-user form-control-feedback"></i>
 											</div>
+											
+											<div >
+												<label for="name">Dispone de una cuenta en la plataforma*</label>
+												<div>
+												  <input type="radio" id="html-yes" name="html" value="yes" required>
+												  <label for="html-yes">Sí</label>
+												</div>
+												<div>
+												  <input type="radio" id="html-no" name="html" value="no" required>
+												  <label for="html-no">No</label>
+												</div>
+											  </div>
+											  
+
+
+
 											<div class="form-group has-feedback">
-												<label for="message">Message*</label>
-												<textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
+												<label for="message">Indica el motivo*</label>
+												<textarea class="form-control" rows="6" id="message" name="message" placeholder="Describe el motivo por el cual quieres contactar con nosotros" required></textarea>
 												<i class="fa fa-pencil form-control-feedback"></i>
 											</div>
-											<input type="submit" value="Submit" class="btn btn-default">
+
+
+
+
+											<input type="submit" value="Enviar" class="btn btn-default">
 										</form>
 									</div>
 								</div>
-								<div class="col-md-6">
 
 								
+								
+								
+								<div class="col-md-6">
+
+
+
+
+
 <!-- Informacion de contacto -->
-<div class="span4"><div class="title-box clearfix "><h3 class="title-box_primary">Contact info</h3></div> 
+
+
+
+
+
+
+<!-- <div class="span4"><div class="title-box clearfix "><h3 class="title-box_primary">Contact info</h3></div> 
 <h5>Lorem ipsum dolor sit amet, cadipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium.</h5>
 <p>Lorem ipsum dolor sit amet, cadipisicing sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, cadipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium Atque sed, quidem quis praesentium, ut unde fuga error commodi architecto, laudantium culpa tenetur at id, beatae pet.<br>
 </p><address>
@@ -124,7 +175,7 @@ E-mail: <a href="mailto:info@sitename.org">mail@sitename.org</a><br>
 </address> </div> 
 								</div>
 							</div>
-	</div>
+	</div> -->
  
 	</section>
 
